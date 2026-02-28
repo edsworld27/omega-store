@@ -6,15 +6,12 @@ This document is the authoritative map of all available Kits, Skills, MCPs, and 
 *Kits provide full project lifecycles, patterns, and specialized technical laws.*
 
 ```text
-├── kits/                           # Complete specialized project environments
-│   ├── website/                    # The foundational web development kit (Standard)
-│   │   ├── TREEMAP.md              # -> Nested Website Map & Phases Table
-│   │   ├── WEBSITE_KIT.md          # Primary Ruleset for web execution
-│   │   ├── PROMPTER.md             # Standard questionnaire for web builds
-│   │   └── preproduction/          # Core planning tools (Wireframes, SEO, CMS Hot Swaps)
-│   └── marketing_agency/           # Agency Meta-Kit (Stacks on top of Website Kit)
-│       ├── MARKETING_AGENCY_KIT.md # Rules for agency-level deployment (Maps, Apple Connect)
-│       └── PROMPTER.md             # Agency onboarding questionnaire
+├── kits/                                  # Fully Automated End-to-End Build Sequences
+│   ├── marketing_agency/                  # Meta-Kit: Umbrella for all digital services
+│   │   ├── website/                       # Sub-Kit: [The Core Performance Website Framework](file:///Users/eds/Documents/Omega%20Constitution%20Pack/Omega%20DEV%20Panel/06_Full_System/omega-store/kits/marketing_agency/website/TREEMAP.md)
+│   │   └── seo_campaigns/                 # (Future) Local and National SEO scaling plans
+│   ├── e_commerce/                        # (Future) High-Conversion Storefronts
+│   └── custom_webapp/                     # (Future) Bespoke React/Next.js Dashboards
 ```
 
 ## 🛠 Skills (`/skills/`)
