@@ -4,6 +4,14 @@
 - **Legal Authority:** See [BEST_PRACTICES.xml](file:///Users/eds/Documents/Omega%20Constitution Pack/Omega DEV Panel/06_Full_System/omega-store/kits/website/BEST_PRACTICES.xml) for Accessibility and Aesthetic mandates.
 - **Asset Layer:** See [AESTHETIC_LAYER.xml](file:///Users/eds/Documents/Omega%20Constitution Pack/Omega DEV Panel/06_Full_System/omega-store/kits/website/assets/AESTHETIC_LAYER.xml) for CSS presets.
 
+## Specialized Lifecycle
+| Phase | Folder | Focus | Goal |
+| :--- | :--- | :--- | :--- |
+| **I. Pre-Production** | `01_preproduction/` | Discovery & Design | Approved PRD & Assets |
+| **II. Production** | `02_production/` | Rapid Build | Iterative Fulfill (IRONCORE) |
+| **III. Verification** | `03_testing/` | Audit & Evidence | High-Resolution Evidence |
+| **IV. Publication** | `04_publication/` | Deployment & Handoff | Live Asset & Secure Handoff |
+
 ## Sitemap Template
 | Page | Path | Template | Priority |
 | :--- | :--- | :--- | :--- |

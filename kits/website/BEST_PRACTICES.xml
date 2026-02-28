@@ -26,8 +26,8 @@
             <rule>Use [aria-label] for icon-only buttons. Use [aria-expanded] for mobile menus and accordions.</rule>
         </law>
         <law id="WS-ACC-3">
-            <name>Contrast Law</name>
-            <rule>Minimum 4.5:1 contrast for all text. No color-only communication.</rule>
+            <name>Contrast Supremacy</name>
+            <rule>Minimum 4.5:1 contrast for normal text. 7:1 contrast for CRITICAL call-to-actions and legal text (WCAG AAA). Use high-contrast focus rings for keyboard users.</rule>
         </law>
     </section>
 
