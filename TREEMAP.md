@@ -5,8 +5,17 @@ This document is the authoritative map of all available Kits, Skills, MCPs, and 
 ## 📦 Kits (`/kits/`)
 *Kits provide full project lifecycles, patterns, and specialized technical laws.*
 
-- **[Website Kit](file:///Users/eds/Documents/Omega%20Constitution Pack/Omega DEV Panel/06_Full_System/omega-store/kits/website/)**: High-end website builds (Architect's Sequence, Mobile-First, Security Gate).
-- **[Marketing Agency Kit](file:///Users/eds/Documents/Omega%20Constitution Pack/Omega DEV Panel/06_Full_System/omega-store/kits/marketing_agency/)**: Agency-level meta-kit (Maps, Apple Connect, Kit Stacking).
+```text
+├── kits/                           # Complete specialized project environments
+│   ├── website/                    # The foundational web development kit (Standard)
+│   │   ├── TREEMAP.md              # -> Nested Website Map & Phases Table
+│   │   ├── WEBSITE_KIT.md          # Primary Ruleset for web execution
+│   │   ├── PROMPTER.md             # Standard questionnaire for web builds
+│   │   └── preproduction/          # Core planning tools (Wireframes, SEO, CMS Hot Swaps)
+│   └── marketing_agency/           # Agency Meta-Kit (Stacks on top of Website Kit)
+│       ├── MARKETING_AGENCY_KIT.md # Rules for agency-level deployment (Maps, Apple Connect)
+│       └── PROMPTER.md             # Agency onboarding questionnaire
+```
 
 ## 🛠 Skills (`/skills/`)
 *Skills are atomic operational patterns and agentic behaviors.*
