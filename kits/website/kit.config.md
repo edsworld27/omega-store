@@ -13,10 +13,11 @@
 2. constitution/QUALITY.xml      ← Quality standards
 3. constitution/PROMPTING.xml    ← Communication methods
 4. constitution/*.xml            ← Other laws
-5. This Kit's PROMPTER.md        ← Discovery + requirements
-6. This Kit's kit.config.md      ← Activation rules (this file)
-7. This Kit's WEBSITE_KIT.md     ← Patterns + checklists
-8. user-input/seed/*.md          ← User's project context
+5. This Kit's BEST_PRACTICES.xml      ← Specialized laws (Aesthetics/ACC)
+6. This Kit's PROMPTER.md            ← Discovery + requirements
+7. This Kit's kit.config.md          ← Activation rules (this file)
+8. This Kit's WEBSITE_KIT.md         ← Patterns + checklists
+9. user-input/seed/*.md              ← User's project context
 ```
 
 **Rule:** Higher number never overrides lower number.

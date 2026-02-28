@@ -1,5 +1,9 @@
 # WEBSITE KIT — Starter Pattern
 
+## Specialized Laws
+- **Legal Authority:** See [BEST_PRACTICES.xml](file:///Users/eds/Documents/Omega%20Constitution Pack/Omega DEV Panel/06_Full_System/omega-store/kits/website/BEST_PRACTICES.xml) for Accessibility and Aesthetic mandates.
+- **Asset Layer:** See [AESTHETIC_LAYER.xml](file:///Users/eds/Documents/Omega%20Constitution Pack/Omega DEV Panel/06_Full_System/omega-store/kits/website/assets/AESTHETIC_LAYER.xml) for CSS presets.
+
 ## Sitemap Template
 | Page | Path | Template | Priority |
 | :--- | :--- | :--- | :--- |
