@@ -7,6 +7,10 @@ This document is the authoritative map of all available Kits, Skills, MCPs, and 
 
 ```text
 ├── kits/                                  # Fully Automated End-to-End Build Sequences
+│   ├── make_a_kit/                        # Instructions for designing new Omega Kits
+│   │   ├── KIT_CREATION_GUIDE.md          # Architecture laws for Kits
+│   │   ├── KIT_GUIDE.md                   # Anatomy of a Kit
+│   │   └── KIT_EXPORT_GUIDE.md            # How to export a custom Kit into the ecosystem
 │   ├── marketing_agency/                  # Meta-Kit: Umbrella for all digital services
 │   │   ├── website/                       # Sub-Kit: [The Core Performance Website Framework](file:///Users/eds/Documents/Omega%20Constitution%20Pack/Omega%20DEV%20Panel/06_Full_System/omega-store/kits/marketing_agency/website/TREEMAP.md)
 │   │   └── seo_campaigns/                 # (Future) Local and National SEO scaling plans
