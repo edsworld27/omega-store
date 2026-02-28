@@ -9,7 +9,7 @@
 | :--- | :--- | :--- | :--- |
 | **I. Pre-Production** | `01_preproduction/` | Market Audit -> SEO Intent -> UX -> Copy | Approved PRD & Assets |
 | **II. Production** | `02_production/` | Rapid Build | Iterative Fulfill (IRONCORE) |
-| **III. Verification** | `03_testing/` | Audit & Evidence | High-Resolution Evidence |
+| **III. Verification** | `03_testing/` | Audit -> Perfect -> Security | High-Resolution Evidence |
 | **IV. Publication** | `04_publication/` | Deployment & Handoff | Live Asset & Secure Handoff |
 
 ## Maestro Modes
@@ -105,3 +105,4 @@ Each page should follow this hierarchy:
 - [ ] Page speed ≥90 on Lighthouse
 - [ ] Accessibility ≥90 on Lighthouse
 - [ ] Social sharing preview (OG tags) tested
+- [ ] **Guardian Gate:** Full `SECURITY.xml` audit passed with 0 critical issues.
