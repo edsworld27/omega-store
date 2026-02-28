@@ -3,9 +3,9 @@
 *This protocol ensures the project can be rebranded/modified instantly from a single source of truth.*
 
 ## Objectives
-- [ ] **Create CMS / Config File:** Generate a global configuration file (e.g., `src/config.ts` or `data/site.json`).
+- [ ] **Create CMS / Config File:** Generate a global configuration file inside the project's sterile database folder: `<project_root>/database/cms/site.config.ts` (or `.json`).
 - [ ] **Populate Brand Data:** Add all primary, secondary, and tertiary colors (in Hex/HSL) based on the approved `AESTHETIC_LAYER`.
-- [ ] **Populate Typography:** Define the global font families.
+- [ ] **Populate Typography & Local Fonts:** Define the global font families AND **download/host the actual font files locally** inside `<project_root>/database/fonts/`. Do not use external API links (e.g., `fonts.googleapis.com`).
 - [ ] **Populate NAPO Data:** Centralize the Business **Name, Address, Phone, and Operating Hours** (Crucial for Local SEO/Schema).
 - [ ] **Populate Copy:** Centralize primary Taglines and Email.
 - [ ] **Populate Links:** Centralize all Social Media URLs and Map links (Google Maps / Apple Connect).

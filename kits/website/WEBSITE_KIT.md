@@ -94,6 +94,19 @@ Each page should follow this hierarchy:
 - [ ] Reject button equally prominent as Accept
 - [ ] Cookie policy page linked from banner
 
+## 1. Project Initialization & Architecture Rules
+
+### 1.1 The "Clean Handoff" Protocol
+When requested to build a new Website, the AI MUST explicitly establish a sterile boundary:
+- All new code goes into a pristine `project/` directory.
+- This directory must contain NO Dev Panel or Instructional files. It must be a mathematically pure web skeleton, ready to be handed directly to a client or hosted.
+
+### 1.2 The "Project Database" Mandate
+All initialized projects MUST scaffold a localized database directory at the root: `project/database/`. This directory is strictly designated for:
+- `project/database/cms/`: Houses the Hot Swap `site.config.ts` (or `.json`) containing all brand variables (NAPO, Colors, Fonts, Copy).
+- `project/database/fonts/`: Houses all localized typography files (WOFF2). **External font APIs (Google Fonts) are forbidden** for PageSpeed optimization.
+- `project/database/plugins/`: Houses any third-party script integrations.
+
 ## Pre-Launch Checklist
 - [ ] All pages render correctly on mobile, tablet, desktop
 - [ ] All links work (no 404s)
