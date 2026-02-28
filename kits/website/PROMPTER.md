@@ -78,19 +78,11 @@ About your content:
 
 ### Batch 3: Technical Preferences
 ```
-Technical setup:
-
-1. **Framework preference?**
-   - Next.js (Recommended for most)
-   - Astro (best for content-heavy)
-   - Plain HTML/CSS
-   - Other: ___
-
-2. **Hosting?**
-   - Vercel (Recommended)
-   - Netlify
-   - Self-hosted
-   - No preference
+### 4. Tech Stack, Integrations & Routing ⚙️
+1. **Framework Preferences:** Are we using a specific framework (Next.js, Vite, HTML/CSS) or do I have autonomy to choose the best fit?
+2. **CMS/CRM Needs:** Will this site require a backend CMS (Sanity, WordPress headless) or Webhooks for a CRM (HubSpot, GoHighLevel)?
+3. **Integrations & Plugins:** Are there any specific third-party integrations required (e.g., Stripe, Calendly, Mailchimp, Live Chat)?
+4. **Fulfillment Routing:** Shall I generate the code locally in the IDE, or do you want me to generate prompts for an external AI Native Builder (e.g., Lovable, v0) and then audit the result?ext
 ```
 
 ### Batch 4: Launch Context
@@ -132,7 +124,9 @@ Once requirements table is complete:
 1. **Generate sitemap** from WEBSITE_KIT.md template + user input
 2. **Create component list** for tech stack
 3. **Output PRD** using constitution/blueprints/PRD.md
-4. **Begin phase tasks** from preproduction/ → production/ → testing/
+4.- **"Begin Architect's Sequence"**: Start from Pre-Production Document 1 and work sequentially. No code generation until Pre-Production is fully approved.
+- **"Maestro Mode (Skip to Design)"**: Bypass the market audit and instantly generate the `TREEMAP.md`, `project/database/cms/site.config`, and `CP_STRUCTURE.md` to begin immediate structural coding. (Subject to Mobile-First and Container Laws).
+- **"Maintenance Mode"**: Re-open a completed project to execute Phase 5 protocols (Blogs, Text Edits, Plugin Integrations via the Hot Swap CMS file).pected
 
 ---
 

@@ -10,6 +10,7 @@ This is the localized Treemap and Phase Table for the **Website Kit**. This map 
 | **02 Production** | Functional Development & Component Weaving | `INDEX.html`, `main.jsx`, `Layout` | Fully responsive frontend |
 | **03 Verification** | Audits, Cleanups, & Security Gates | `01_SEO_PAGE_SPEED`, `02_SECURITY_AUDIT` (The Guardian Gate) | 100/100 Lighthouse, Security Passed |
 | **04 Publication** | Deployment & Global Indexing | `01_VERCEL_DEPLOY`, `02_WEBMASTER_SETUP`, `02.5_TRACKING_AND_SCHEMA` | Live URL, Analytics Installed |
+| **05 Maintenance** | Post-Launch Edits & Integrations | `01_BLOG_OR_EDIT` | Updated CMS config, localized plugins |
 
 ## Fractal Structure
 ```
@@ -31,7 +32,9 @@ website/
 ├── testing/                            # Verification Phase
 │   ├── 01_SEO_PAGE_SPEED.task.md       # Mandatory Audit Loop
 │   └── 02_SECURITY_AUDIT.task.md       # The Guardian Gate
-└── publication/                        # Launch Phase
-    ├── 01_VERCEL_DEPLOY.task.md        # Git connection
-    └── 02_WEBMASTER_SETUP.task.md      # Console indexing
+├── publication/                        # Launch Phase
+│   ├── 01_VERCEL_DEPLOY.task.md        # Git connection
+│   └── 02_WEBMASTER_SETUP.task.md      # Console indexing
+└── 05_maintenance/                     # Post-Launch Phase
+    └── 01_BLOG_OR_EDIT.task.md         # Hot Swap Edits & Plugins
 ```
