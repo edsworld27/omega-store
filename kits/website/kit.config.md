@@ -31,9 +31,10 @@
 | `PROMPTER.md` | How to discover requirements, what questions to ask |
 | `WEBSITE_KIT.md` | Sitemap templates, SEO checklist, performance budgets, patterns |
 | `kit.config.md` | This file — activation rules |
-| `preproduction/` | Tasks before build (brand import, content audit, wireframes) |
+| `preproduction/` | Market Audit, SEO Intent, Wireframes/UX, Copywriting Structure |
 | `production/` | Tasks during build (SEO, accessibility, performance) |
 | `testing/` | Tasks before launch (browser, mobile, lighthouse) |
+| `publication/` | Tasks for launch (SSL, DNS, Handoff, Cleanup) |
 | `TRACKER.md` | Progress tracking for this kit |
 | `README.md` | Quick reference for this kit |
 
@@ -48,8 +49,12 @@
 4. AI detects: Project Type = Website
 5. AI loads this kit:
    └── First: PROMPTER.md (discovery)
-   └── Then: WEBSITE_KIT.md (patterns)
-   └── Then: phase folders (tasks)
+   └── Then: BEST_PRACTICES.xml (technical laws)
+   └── Then: 4-Phase Specialized Lifecycle:
+       ├── 01_preproduction/ (Market Audit -> SEO -> UX -> Copy)
+       ├── 02_production/
+       ├── 03_testing/
+       └── 04_publication/
 6. PROMPTER.md drives the conversation
 7. Build begins only when requirements table is complete
 ```

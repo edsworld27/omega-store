@@ -7,7 +7,7 @@
 ## Specialized Lifecycle
 | Phase | Folder | Focus | Goal |
 | :--- | :--- | :--- | :--- |
-| **I. Pre-Production** | `01_preproduction/` | Discovery & Design | Approved PRD & Assets |
+| **I. Pre-Production** | `01_preproduction/` | Market Audit -> SEO Intent -> UX -> Copy | Approved PRD & Assets |
 | **II. Production** | `02_production/` | Rapid Build | Iterative Fulfill (IRONCORE) |
 | **III. Verification** | `03_testing/` | Audit & Evidence | High-Resolution Evidence |
 | **IV. Publication** | `04_publication/` | Deployment & Handoff | Live Asset & Secure Handoff |
