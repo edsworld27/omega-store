@@ -101,11 +101,12 @@ When requested to build a new Website, the AI MUST explicitly establish a steril
 - All new code goes into a pristine `project/` directory.
 - This directory must contain NO Dev Panel or Instructional files. It must be a mathematically pure web skeleton, ready to be handed directly to a client or hosted.
 
-### 1.2 The "Project Database" Mandate
-All initialized projects MUST scaffold a localized database directory at the root: `project/database/`. This directory is strictly designated for:
-- `project/database/cms/`: Houses the Hot Swap `site.config.ts` (or `.json`) containing all brand variables (NAPO, Colors, Fonts, Copy).
-- `project/database/fonts/`: Houses all localized typography files (WOFF2). **External font APIs (Google Fonts) are forbidden** for PageSpeed optimization.
-- `project/database/plugins/`: Houses any third-party script integrations.
+### 1.3 Execution Paths & Modes
+The exact trajectory of the project is defined by the Execution Mode selected by the user in `PROMPTER.md`:
+- **Architect's Sequence:** The full, heavy-weight 5-Phase lifecycle from Market Audit to Post-Launch Maintenance.
+- **Maestro Mode (Skip to Design):** Bypasses Market Audits but strictly adheres to all Structural, Database, and Verification gates.
+- **Maintenance Mode:** Bypasses Pre-Production entirely. Operates exclusively via modifying the `project/database/cms/` file (The "CMS-First Mandate") and localization of plugins.
+- **Demo Mode (UI Showcase):** A pure frontend rapid-prototyping pathway. The AI MUST skip `02_SEO_INTENT`, `01_SEO_PAGE_SPEED`, and `02.5_TRACKING_AND_SCHEMA`. It generates only the `project/database/cms/` (for colors/fonts), and immediately scaffolds the raw React/HTML/CSS for rapid visual approval.
 
 ## Pre-Launch Checklist
 - [ ] All pages render correctly on mobile, tablet, desktop

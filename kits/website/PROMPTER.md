@@ -119,14 +119,15 @@ After discovery, score the project against WEBSITE_KIT.md requirements:
 
 ## 5. BUILD HANDOFF
 
-Once requirements table is complete:
-
+Next Steps:
+Based on the answers above, the AI will:
 1. **Generate sitemap** from WEBSITE_KIT.md template + user input
 2. **Create component list** for tech stack
 3. **Output PRD** using constitution/blueprints/PRD.md
 4.- **"Begin Architect's Sequence"**: Start from Pre-Production Document 1 and work sequentially. No code generation until Pre-Production is fully approved.
 - **"Maestro Mode (Skip to Design)"**: Bypass the market audit and instantly generate the `TREEMAP.md`, `project/database/cms/site.config`, and `CP_STRUCTURE.md` to begin immediate structural coding. (Subject to Mobile-First and Container Laws).
-- **"Maintenance Mode"**: Re-open a completed project to execute Phase 5 protocols (Blogs, Text Edits, Plugin Integrations via the Hot Swap CMS file).pected
+- **"Maintenance Mode"**: Re-open a completed project to execute Phase 5 protocols (Blogs, Text Edits, Plugin Integrations via the Hot Swap CMS file).
+- **"Demo Mode (UI Showcase)"**: Bypass all SEO, Schema, and heavy backend discovery. Generate only the Aesthetic Layer (Hot Swap Colors/Fonts) and immediately jump to scaffolding a pure frontend layout (HTML/React) for rapid structural approval.
 
 ---
 
