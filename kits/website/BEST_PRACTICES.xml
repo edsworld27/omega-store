@@ -7,12 +7,12 @@
 
     <section name="Structural Laws">
         <law id="WS-STR-1">
-            <name>Semantic Hierarchy</name>
-            <rule>Every page MUST have exactly one [h1]. Navigation must be wrapped in [nav]. Main content must be wrapped in [main].</rule>
+            <name>Function Supremacy (Ironcore)</name>
+            <rule>FUNCTION OVER EVERYTHING. Every page MUST have exactly one [h1]. Navigation [nav] and Main [main] must be logically defined before visual styling.</rule>
         </law>
         <law id="WS-STR-2">
             <name>Fragment Sharding</name>
-            <rule>Complex layouts must be sharded into reusable 'Fragments' (e.g., Hero, Features, CTA) stored in production/fragments/.</rule>
+            <rule>Complex layouts must be sharded into reusable 'Fragments' stored in production/fragments/.</rule>
         </law>
     </section>
 
@@ -28,6 +28,10 @@
         <law id="WS-ACC-3">
             <name>Contrast Supremacy</name>
             <rule>Minimum 4.5:1 contrast for normal text. 7:1 contrast for CRITICAL call-to-actions and legal text (WCAG AAA). Use high-contrast focus rings for keyboard users.</rule>
+        </law>
+        <law id="WS-ACC-4">
+            <name>Mobile-First Scaling</name>
+            <rule>Mandatory mobile-first CSS. Text sizes must use [rem] or [em] for fluid scaling. No [px] for layout or typography.</rule>
         </law>
     </section>
 
@@ -50,7 +54,7 @@
         </law>
     </section>
 
-    <section name="Performance">
+    <section name="Performance & Construction">
         <law id="WS-PERF-1">
             <name>Hydration Matching</name>
             <rule>Server-side rendered content must match client-side hydration exactly to avoid layout shifts.</rule>
@@ -58,6 +62,10 @@
         <law id="WS-PERF-2">
             <name>LCP Priority</name>
             <rule>Preload the LCP Hero image. Secondary images must be lazy-loaded.</rule>
+        </law>
+        <law id="WS-PERF-3">
+            <name>Container Optimization</name>
+            <rule>Strict use of optimized layout containers (Flexbox/Grid). Avoid absolute positioning for core layouts.</rule>
         </law>
     </section>
 </best_practices>

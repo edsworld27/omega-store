@@ -12,6 +12,15 @@
 | **III. Verification** | `03_testing/` | Audit & Evidence | High-Resolution Evidence |
 | **IV. Publication** | `04_publication/` | Deployment & Handoff | Live Asset & Secure Handoff |
 
+## Maestro Modes
+- **Full Discovery (Default):** Market Audit -> SEO Intent -> UX Journey -> Fulfillment.
+- **Skip to Design:** Bypasses Phase I research. AI immediately generates **TREEMAP.md** and **CP_STRUCTURE.md** for approval before any code.
+
+## Structural Integrity
+- **TREEMAP.md:** Non-negotiable hierarchical map of the dev environment.
+- **CP_STRUCTURE.md:** Non-negotiable gate between prep and build.
+- **Law:** FUNCTION OVER EVERYTHING. Style follows structure.
+
 ## Sitemap Template
 | Page | Path | Template | Priority |
 | :--- | :--- | :--- | :--- |
